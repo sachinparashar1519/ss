@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 100px;
+    color: #03a4ed;
+}
+.navbar-brand span{
+    color: #fe3f40;
+}
+.navbar ul li{
+    padding: 0 20px;
+}
+.navbar ul li a{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: 0.3s all ease;
+}
+.navbar ul li a.active{
+    color: #fe3f40 !important;
+}
+.navbar ul li a:hover{
+    color: #fe3f40!important;
+}
+.navbar ul li:last-child {
+    background-color: #fe3f40;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0 10px;
+}
+.navbar ul li:last-child a{
+    color: #fff;
+}
+
+.Home{
+    display: flex;
+    background-image: url(img/baner-dec-left.png);
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.wemake{
+    margin-top: 70px;
+}
+.align-self-center h6{
+    color: #fe3f40;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+.align-self-center h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #2a2a2a;
+    line-height: 72px
+}
+    
+
+.align-self-center h2 em{
+    color: #03a4ed;
+    font-style: normal;
+}
+
+.align-self-center h2 span{
+    color: #fe3f40;
+
+}
+
+.align-self-center p{
+    margin: 20px 0px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
+}
+.right-im img{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+}
+
+.align-self-center p span{
+    color: #03a4ed;
+}
+.blue-but input{
+    width: 470px;
+    height: 66px;
+    border: none;
+    outline: none;
+    padding: 0px 25px;
+    background-color: #03a4ed !important;
+    border-radius: 33px;
+    color: #fff !important;
+    letter-spacing: 0.25px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.blue-but input::placeholder{
+    color: #fff;
+}
+.blue-but{
+    position: relative;
+}
+.blue-but button{
+    position: absolute;
+    top: 10px;
+    right: 90px;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fe3f40;
+    text-transform: capitalize;
+    padding: 12px 25px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    outline: none;
+    border: none;
+}
+.teda-banner{
+    margin-top: 200px;
+    background-image: url(./img/about-bg.png);
+    padding: 140px 0 120px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
